@@ -1,10 +1,10 @@
-h3. yab_article_crossref
+h1. yab_article_crossref
 
 Easy cross-reference an article in custom fields.
 
 *Version:* 0.1
 
-h4. Table of contents
+h2. Table of contents
 
 # "Plugin requirements":#help-section02
 # "Configuration":#help-config03
@@ -12,13 +12,13 @@ h4. Table of contents
 # "License":#help-section11
 # "Author contact":#help-section12
 
-h4(#help-section02). Plugin requirements
+h2(#help-section02). Plugin requirements
 
 yab_article_crossref's  minimum requirements:
 
 * Textpattern 4.x
 
-h4(#help-config03). Configuration
+h2(#help-config03). Configuration
 
 Open the plugin code. the first function contains the configuration values:
 
@@ -26,18 +26,18 @@ bc. 'custom_field_nr' => ', // custom_field number containing the cross referenc
 'sections'        => ', // sections from which we build the dropdown, comma separated
 'categories'      => ' // categories from which we build the dropdown, comma separated
 
-h4(#help-section10). Changelog
+h2(#help-section10). Changelog
 
 * v0.1: 2017-02-12
 ** initial release
 
-h4(#help-section11). Licence
+h2(#help-section11). Licence
 
 This plugin is released under the GNU General Public License Version 2 and above
 * Version 2: "http://www.gnu.org/licenses/gpl-2.0.html":http://www.gnu.org/licenses/gpl-2.0.html
 * Version 3: "http://www.gnu.org/licenses/gpl-3.0.html":http://www.gnu.org/licenses/gpl-3.0.html
 
-h4(#help-section12). Author contact
+h2(#help-section12). Author contact
 
 * "Plugin on author's site":http://www.yablo.de/article/500/yab_article_crossref-cross-reference-articles-in-custom-fields
 * "Plugin on GitHub":https://github.com/trenc/yab_article_crossref
